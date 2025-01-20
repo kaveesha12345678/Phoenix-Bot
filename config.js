@@ -14,13 +14,13 @@ module.exports = {
   //__________________________________________________________________________________________________________________________________________
  // For Enabling Commands Like AUTO_STATUS_VIEW Type true For Disabling Type false  
 //____________________________________________________________________________________________________________________________________________  
-  SESSION_ID: process.env.SESSION_ID || '',
+  SESSION_ID: process.env.SESSION_ID || '',Phoenix~RiftMeteor
   STICKER_DATA: process.env.STICKER_DATA || '🎯ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ🍀',
   ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
   AUDIO_DATA: process.env.AUDIO_DATA || 'Phoenix-MD;Abhishek Suresh;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
   BOT_INFO: process.env.BOT_INFO || 'ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ;919074692450;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg', 
   PREFIX: process.env.PREFIX || '.',
-  MODE: process.env.MODE || 'private',
+  MODE: process.env.MODE || publish
   SUDO: process.env.SUDO || '919074692450, 918157993101',
   START_MSG: toBool(process.env.START_MSG || 'true'),
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
@@ -28,7 +28,7 @@ module.exports = {
   GOODBYE_MSG: process.env.GOODBYE_MSG || '👋 GoodBye *@user* From *@gname*\n*Total Members:* @count @pp',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  RENDER_NAME: process.env.RENDER_NAME || '',
+  RENDER_NAME: process.env.RENDER_NAME ||kaviya '',
   RENDER_API: process.env.RENDER_API || '',
   KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || 'abhiLoki',
   KOYEB_API_KEY: process.env.KOYEB_API_KEY || 'rdhmh9sja4bxep5wxf7e9y7q4my251ptcqmvrwc78698lbxp0uvm9gphsl0bpabn',
